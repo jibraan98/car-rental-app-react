@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+:root {
+  --background: rgb(232, 232, 232);
+  --text-primary: black;
+  
+}
+
+body {
+  min-height: 100vh;
+}
+
+
+[data-theme='dark'] {
+  --background: rgb(33, 33, 33);
+  --text-primary: white;
+}
+
+.app {
+  background-color: var(--background);
+  color: var(--text-primary);
+  transition: all 0.5s;
+}
+
+
+.name {
+  font-size: 2rem;
+}
+
+a:hover, a:visited, a:link, a:active {
+  text-decoration: none;
+  color: var(--text-primary);
+}
+
+.login-form {
+  width: 50%;
+  height: 80vh;
+  margin-top: 3rem;
+  margin-bottom: 8rem;
+  margin-left: auto;
+  margin-right: auto; 
+
+}
+
+.login-form button {
+  border-radius: 15px;
+  margin-top: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 8em
+  
+}
+
+.account-help {
+  margin-top: 1.5rem;
+  text-decoration: underline;
+}
+
+.symbol {
+  font-size: 1.5rem;
+  margin-top: 0.7rem;
+  margin-left: 0.2rem;
+}
+
+.navigation {
+  background-color: var(--background);
+  color: var(--text-primary);
+}
+
+.outline-item {
+  color: var(--text-primary);
+}
+
+.home-image {
+  width: 100%;
+  position: absolute;
+}
+
+.centered {
+  position: relative;
+  margin-top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  width: 40%;
+  background: transparent;
+  color: white;
+}
+
+.search {
+  margin-left: 30%;
+  margin-bottom: 30px;
+}
+
+.hero {
+  margin-bottom: 5rem;
+}
+
+.heading-component {
+  margin-top: 45%;
+  text-align: center;
+  
+}
+
+.heading-component p {
+  text-align: center;
+}
+
+.card-component {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  place-content: center;
+}
+
+.card {
+  margin-right: .5rem;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+}
+
+.card button {
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+}
+
+.footer {
+  background-color: rgb(230, 227, 227);
+  height: 240px;
+  bottom: 0;
+  
+}
+
+.learn-more {
+  height: 80vh;
+}
+
+.footer-info {
+  margin-left: 3rem;
+  padding-top: 2rem;
+}
+
+.copyright-info {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.profile {
+  height: 100vh;
+}
+
+.profile-title {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.image {
+  margin-left: auto;
+  margin-right: auto;
+  width: 14em
+}
+
+.avatar {
+  width: 200px;
+  height: 200px;
+}

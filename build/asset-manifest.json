@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/car-rental-app-react/static/css/main.d094f145.css",
+    "main.js": "/car-rental-app-react/static/js/main.9b217994.js",
+    "index.html": "/car-rental-app-react/index.html",
+    "main.d094f145.css.map": "/car-rental-app-react/static/css/main.d094f145.css.map",
+    "main.9b217994.js.map": "/car-rental-app-react/static/js/main.9b217994.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d094f145.css",
+    "static/js/main.9b217994.js"
+  ]
+}
